@@ -29,7 +29,7 @@ function setTitle(title: string) {
 
 function setContent(content: string) {
   if (!adviceContent) return;
-  adviceContent.innerText = content;
+  adviceContent.innerText = `“${content}”`;
 }
 
 function setData(data: adviceFormat): void {
